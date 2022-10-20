@@ -1,0 +1,56 @@
+name: Mala_Life
+main: malalife.main.Mala_Life
+version: 1.18
+api-version: 1.18
+author: Malaia_Garnet
+description: Upgrade your server's etc activement experience.
+depend: [Laylia_Core_API, Laylia_Enchant, Vault, CrazyAdvancementsAPI]
+commands:
+   mala-money-drop:
+      description: drop player money (except bank)
+      usage: /mala-money-drop [playername] [money]
+      default: true
+   be-fish:
+      description: check player fish skill
+      usage: /be-fish
+      default: true
+   be-fish-checktable:
+      description: for admin, check treasure table 
+      usage: /be-fish-checktable [filename]
+      default: true
+   be-fish-get-all-fishes:
+      description: for admin, get all fishes
+      usage: /be-fish-get-all-fishes
+      default: false
+   fishfes:
+      description: fes
+      usage: /fishfes
+      default: true   
+permissions:
+   fes.fish.start:
+      description: allows 'start' fish festival.
+      default: false
+   fes.fish.cancel:
+      description: allows 'cancel' fish festival.
+      default: false
+   fes.fish.end:
+      description: allows 'end' fish festival.
+      default: false
+   fes.fish.join:
+      description: allows 'join / leave' fish festival.
+      default: false
+   battleEnhancements.mcmmo.fish.rod_mastery:
+      description: allows use rod mastery
+      default: false
+   battleEnhancements.mcmmo.fish.lucky_catch:
+      description: allows use lucky catch
+      default: false
+   battleEnhancements.mcmmo.fish.treasure_catch:
+      description: allows use treasure catch
+      default: false
+   battleEnhancements.mcmmo.fish.absolute_sense:
+      description: allows use absolute sense
+      default: false
+   battleEnhancements.mcmmo.fish.food_bonus:
+      description: allows use food bonus
+      default: false
